@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin: 0;
+	padding:0;
+	user-select: none;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+	color: black;
+}
+img{
+	border:none;
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+*{font-szie:20px;}

@@ -1,0 +1,122 @@
+$(".meau").click(function(){
+   $(".header_a2").toggle();
+   $(".bottombox").toggle();
+   $(".personal").toggle();
+    $(".sideuls_box").toggle();
+    $(".li_1_1").hide();
+    $(".sideuls_a1").mouseenter(function(){
+        $(this).css("color","blue");
+    })
+    $(".sideuls_a1").mouseleave(function(){
+        $(this).css("color","#ccc");
+    })
+    $(".sidebar").css("display","block");
+
+})
+$(".sideuls_a1").click(function(){
+    $(".li_1_1").slideToggle("fast");
+    $(this).siblings("ul").find("li").css("display","block").parent().parent().siblings().find("ul").find("li").css("display","none");
+
+})
+$("#inpspan").click(function(){
+    $(".denglubox").css("display","block");
+})
+$(".denglukong").click(function(){
+    $(".denglubox").css("display","none");
+})
+$(".close_span").click(function(){
+    $(".denglubox").css("display","none");
+})
+$("#close").click(function(){
+    $(".denglubox").css("display","none");
+})
+$("#sunm").click(function(){
+    $(".denglubox").css("display","none");
+    location.href="index.html";
+})
+$(".five_right_div_2_top").click(function(){
+   $(".five_i1").toggle();
+   $(".five_i2").toggle();
+  $(this).find("span").find("i").show().parent().parent().parent().find("div").find("span").find("i").hide();
+})
+$(".shezhi").click(function(){
+    $(".huanfu").css("display","block");
+})
+$(".i_huanfu").click(function(){
+    $(".huanfu").css("display","none");
+})
+$(".i_001").click(function(){
+    $(".headerright").css("backgroundColor","#000");
+    $(".huanfu_h3").css("backgroundColor","cornflowerblue");
+    $(".sidebar").css("backgroundColor","#fff");
+    $(".content_sp1").css("backgroundColor","dodgerblue");
+})
+$(".i_002").click(function(){
+    $(".headerright").css("backgroundColor","#26c6da");
+    $(".huanfu_h3").css("backgroundColor","#26c6da");
+    $(".content_sp1").css("color","#26c6da");
+    $(".sidebar").css("backgroundColor","#fff");
+})
+$(".i_003").click(function(){
+    $(".headerright").css("backgroundColor","#fc4b6c");
+    $(".huanfu_h3").css("backgroundColor","#fc4b6c");
+    $(".sidebar").css("backgroundColor","#fff");
+    $(".content_sp1").css("color","#fc4b6c");
+})
+$(".i_004").click(function(){
+    $(".headerright").css("backgroundColor","#1e88e5");
+    $(".huanfu_h3").css("backgroundColor","#1e88e5");
+    $(".sidebar").css("backgroundColor","#fff");
+    $(".content_sp1").css("color","#1e88e5");
+})
+$(".i_005").click(function(){
+    $(".headerright").css("backgroundColor","#7460ee");
+    $(".huanfu_h3").css("backgroundColor","#7460ee");
+    $(".sidebar").css("backgroundColor","#fff");
+    $(".content_sp1").css("color","#7460ee");
+})
+$(".i_006").click(function(){
+    $(".headerright").css("backgroundColor","#00897b");
+    $(".huanfu_h3").css("backgroundColor","#00897b");
+    $(".sidebar").css("backgroundColor","#fff");
+    $(".content_sp1").css("color","#00897b");
+})
+$(".i_007").click(function(){
+    $(".headerright").css("backgroundColor","#000");
+    $(".huanfu_h3").css("backgroundColor","cornflowerblue");
+    $(".sidebar").css("backgroundColor","#000");
+    $(".content_sp1").css("color","#dodgerblue");
+})
+$(".i_008").click(function(){
+    $(".headerright").css("backgroundColor","#26c6da");
+    $(".huanfu_h3").css("backgroundColor","#26c6da");
+    $(".sidebar").css("backgroundColor","#000");
+    $(".content_sp1").css("color","#26c6da");
+})
+$(".i_009").click(function(){
+    $(".headerright").css("backgroundColor","#fc4b6c");
+    $(".huanfu_h3").css("backgroundColor","#fc4b6c");
+    $(".sidebar").css("backgroundColor","#000");
+    $(".content_sp1").css("color","#fc4b6c");
+})
+$(".i_0010").click(function(){
+    $(".headerright").css("backgroundColor","#1e88e5");
+    $(".huanfu_h3").css("backgroundColor","#1e88e5");
+    $(".sidebar").css("backgroundColor","#000");
+    $(".content_sp1").css("color","#1e88e5");
+})
+$(".i_0011").click(function(){
+    $(".headerright").css("backgroundColor","#7460ee");
+    $(".huanfu_h3").css("backgroundColor","#7460ee");
+    $(".sidebar").css("backgroundColor","#000");
+    $(".content_sp1").css("color","#7460ee");
+})
+$(".i_0012").click(function(){
+    $(".headerright").css("backgroundColor","#00897b");
+    $(".huanfu_h3").css("backgroundColor","#00897b");
+    $(".sidebar").css("backgroundColor","#000");
+    $(".content_sp1").css("color","#00897b");
+})
+$(".header_a3").click(function(){
+    $(".hide_01").slideToggle();
+})
